@@ -1,6 +1,6 @@
 # The Image Classification Model
 
-The image classification model is constructed using Convolutional Neural Networks (CNNs). The architecture entails three convolutional layers paired with max-pooling layers. Additionally, a dropout layer with a dropout rate of 0.2 is incorporated, where 20% of input units are omitted during training. After this, dense layers are added, two utilizing the Rectified Linear Unit (ReLU) activation function, while the final layer employs the softmax activation function for multiclass classification. To evaluate the model, the sparse categorical crossentropy loss function, accuracy metric, and Adam optimizer are employed.
+The image classification model is constructed using Convolutional Neural Networks (CNNs). The architecture entails three convolutional layers paired with max-pooling layers. Additionally, a dropout layer with a dropout rate of 0.2 is incorporated, where 20% of input units are deleted during training. After this, dense layers are added, two utilizing the Rectified Linear Unit (ReLU) activation function, while the final layer employs the softmax activation function for multiclass classification. To evaluate the model, the sparse categorical crossentropy loss function, accuracy metric, and Adam optimizer are used.
 
 # Training Process:
 
